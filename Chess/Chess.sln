@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessLogic", "ChessLogic\ChessLogic.csproj", "{438393DC-464D-4800-B517-CCD4E47CA840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessUI", "ChessUI\ChessUI.csproj", "{92B18250-DFC6-4DFA-B90D-50A07E05D770}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{438393DC-464D-4800-B517-CCD4E47CA840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438393DC-464D-4800-B517-CCD4E47CA840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438393DC-464D-4800-B517-CCD4E47CA840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438393DC-464D-4800-B517-CCD4E47CA840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B18250-DFC6-4DFA-B90D-50A07E05D770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B18250-DFC6-4DFA-B90D-50A07E05D770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B18250-DFC6-4DFA-B90D-50A07E05D770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B18250-DFC6-4DFA-B90D-50A07E05D770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
