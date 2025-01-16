@@ -50,6 +50,9 @@ namespace ChessLogic
             return !(left == right);
         }
 
-
+        public static Position operator +(Position pos, Direction dir)
+        { //куда фігура піде, для підсвітки ходу
+            return new Position(pos.Row + dir.RowDelta, pos.Column + dir.ColumnDelta);
+        }
     }
 }
