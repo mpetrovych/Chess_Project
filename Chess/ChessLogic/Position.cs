@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessLogic
 {
-    internal class Position
+    public class Position
     {
         public int Row { get; }
         public int Column { get; }

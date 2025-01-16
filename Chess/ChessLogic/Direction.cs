@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChessLogic
 {
-    internal class Direction
+    public class Direction
     { // для напрямлення фігур. Делта - куда прямує
         public readonly static Direction North = new Direction(-1, 0);  //   N
         public readonly static Direction South = new Direction(1, 0);   //W     E
